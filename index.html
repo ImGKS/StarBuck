@@ -19,7 +19,7 @@
             </header>
             <div class="content">
                 <div class="textBox">
-                    <h2>It's not just Coffee<br>It's <span>Starbucks</span></h2>
+                    <h2>It's not just Coffee<br>It's <span class="starbuck">Starbucks</span></h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, quod praesentium? Perferendis, odio? Unde, maxime dignissimos ducimus enim tenetur aut sequi cupiditate a corrupti accusantium magnam aliquam eos natus laudantium!</p>
                     <a href="#" >Learn More</a>
                 </div>
@@ -47,6 +47,9 @@
             function changeCircleColor(color) {
                 const circle=document.querySelector('.circle');
                 circle.style.background = color;
+
+                const starbuck=document.querySelector(".starbuck");
+                starbuck.style.color = color;
             }
         </script>
     </body>
